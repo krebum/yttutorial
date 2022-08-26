@@ -16,3 +16,8 @@ def logout():
 @auth.route('/sign-up')
 def sign_up():
     return render_template("sign_up.html")
+
+
+@auth.route('/time')
+def time():
+    return render_template("time.html")
